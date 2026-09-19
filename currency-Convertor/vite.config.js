@@ -3,9 +3,6 @@ import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/React/currency-Convertor/',
-  build: {
-    outDir: 'dist/currency-Convertor',
-  },
+  base: '/React/',
   plugins: [react(), tailwindcss()],
 })
